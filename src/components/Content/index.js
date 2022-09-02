@@ -7,10 +7,14 @@ const Content = () => {
           <button type="button" className="subscribe_btn">
             Suscribe
           </button>
-          <div> <img className="imgtop"
-      src="https://images.unsplash.com/photo-1632973039410-aa5cd16908bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-      alt="new"
-      /></div>
+          <div>
+            {" "}
+            <img
+              className="imgtop"
+              src="https://images.unsplash.com/photo-1632973039410-aa5cd16908bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              alt="new"
+            />
+          </div>
           <div className="banner_text">
             <p>
               <span className="branding mb-2">_______________ </span>
@@ -86,10 +90,14 @@ const Content = () => {
           <div className="second_container df-center">
             <div className="bg_design"></div>
             {/* <div><h5>Hi, Iam Jennifer| Founder . Designer</h5></div> */}
-            <div> <img className="img1"
-      src="https://images.unsplash.com/photo-1523297467724-f6758d7124c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=419&q=80"
-      alt="new"
-      /></div>
+            <div>
+              {" "}
+              <img
+                className="img1"
+                src="https://images.unsplash.com/photo-1523297467724-f6758d7124c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=419&q=80"
+                alt="new"
+              />
+            </div>
             <div>
               <div className="meet_design">
                 <h2>Meet the design</h2>
@@ -127,25 +135,31 @@ const Content = () => {
       </div>
       {/* fouth part */}
       <div>
-        <div className="content_wrapper4 ">
+        <div className="content_wrapper4 df-center">
           <div className="fourth_container df-center">
-            <div><h6>Kind Words</h6></div>
-            <div> <img className="img3"
-      src="https://images.unsplash.com/photo-1602077422495-c8733eb58c34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-      alt="new"
-      /></div>
+            <div className="kindword_div">
+              <p>Kind Words</p>
+            </div>
+            <div>
+              {" "}
+              <img
+                className="img3"
+                src="https://images.unsplash.com/photo-1602077422495-c8733eb58c34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+                alt="new"
+              />
+            </div>
             <div>
               <div className="kind_text">
-              <p>
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of very good products.
-              </p>
-              <h8>DREAM CLIENT| CEO OF AN AWSOME COMPANY|</h8>
+                <p>
+                  has survived not only five centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged. It
+                  was popularised in the 1960s with the release of very good
+                  products.
+                </p>
+                <h5>DREAM CLIENT | CEO OF AN AWSOME COMPANY |</h5>
               </div>
               <button className="kindbtn">LEARN MORE</button>
             </div>
-            
           </div>
         </div>
       </div>
