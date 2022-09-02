@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+.container_1 {
+  height: 900px;
+  font-family: "Georgia", cursive;
+  position: relative;
+  margin-left: 161px;
+}
+.df-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_2 {
+  border-radius: 2px;
+  height: 900px;
+
+  border-top: 2px solid #27291d;
+  border-bottom: 2px solid #27291d;
+  font-family: "Georgia", cursive;
+  background-color: #ebdac8;
+}
+
+.container_2_wrapper {
+  margin-top: 70px;
+}
+.content_wrapper1 {
+  background-color: #f2ecde;
+}
+.content_wrapper2 {
+  background-color: #f2ecde;
+  margin-top: 0;
+}
+.second_container {
+  height: 900px;
+  overflow: hidden;
+  > div {
+    max-width: 600px;
+    min-width: 380px;
+    text-align: center;
+    text-align: center;
+    padding-left: -50px;
+    padding-right: 172px;
+  }
+}
+.conbox2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.box2 {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #27291d;
+}
+.content_wrapper3 {
+  background-color: #27291d;
+  height: 900px;
+  border-top: 2px solid #27291d;
+}
+.content_wrapper4 {
+  background-color: #f2ecde;
+  height: 500px;
+  border-top: 2px solid #27291d;
+}
+.content_wrapper5 {
+  background-color: #ebdac8;
+  height: 500px;
+  border-top: 2px solid #27291d;
+}
+.foot_wrapper {
+  height: 500px;
+  background-color: #27291d;
+  border-top: 4px solid #27291d;
+}
+.subscribe_btn {
+  position: absolute;
+  top: 87px;
+  left: -205px;
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0px;
+  border: 1px solid #27291d;
+  transform: rotate(90deg);
+  color: #27291d;
+  transition: 0.3s all ease-in-out;
+  outline: 0 !important;
+  font-weight: 500;
+  letter-spacing: 3px;
+  &:hover {
+    background-color: #27291d;
+    color: #fff;
+    left: -200px;
+  }
+}
+.banner_text {
+  max-width: 400px;
+  position: absolute;
+  p {
+    font-size: 70px;
+    font-weight: 300 !important;
+    color: #27291d;
+    white-space: nowrap;
+  }
+}
+.branding {
+  font-size: 20px;
+}
+// @media (max-width: 1000px) {
+// //   .box-wrap {
+// //     flex-direction: column;
+// //     margin-bottom: 0;
+// //   }
+// }
+
+//
+.box {
+  max-width: 330px;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 65px 20px;
+  &:not(:last-child) {
+    border-right: 0px !important;
+  }
+  h4 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+.offer_text {
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 650px;
+  margin-top: -135px;
+  h1 {
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Nothing You Could Do', cursive;
+  }
+  p {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 85px;
+  }
+
+}
+.box-wrap {
+  position: relative;
+  .help_div {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 30px;
+    background-color: #ebdac8;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family: "Tahoma", cursive;
+  }
+  h5{
+    font-family: 'Nothing You Could Do', cursive;
+
+  }
+}
+.viewall {
+  position: absolute;
+  cursor: pointer;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f2ecde;
+  padding: 20px 60px;
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    background-color: #27291d;
+    color: #fff;
+  }
+}
+.learn {
+  cursor: pointer;
+  background-color: #f2ecde;
+  padding: 20px 60px;
+  transition: 0.3s all ease-in-out;
+  margin-left: 100px;
+  &:hover {
+    background-color: #27291d;
+    color: #fff;
+  }
+}
+.meet_design {
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-family: "Georgia", cursive;
+  position: relative;
+  padding-left: 100px;
+
+  h2 {
+    font-family: 'Nothing You Could Do', cursive;
+
+    font-size: 25px;
+    white-space: nowrap;
+    font-weight: 1;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  p {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Tahoma", cursive;
+    margin-bottom: 37px;
+    line-height: 29px;
+    text-align: justify;
+    margin-left: 68px;
+
+  }
+}
+.bg_design {
+  height: 500px;
+  width: 100px;
+  background-color: #ebdac8;
+  position: absolute;
+  left: 0;
+  margin-top: 286px;
+  display: flex;
+}
+.working_text {
+  text-align: center;
+  max-width: 700px;
+  margin-top: 318px;
+  h1 {
+    font-family: "Georgia", cursive;
+    font-size: 34px;
+    color: #f2ecde;
+    line-height: 51px;
+    letter-spacing: 2px;
+  }
+}
+.learn_1 {
+  cursor: pointer;
+  background-color: #f2ecde;
+  padding: 20px 60px;
+  transition: 0.3s all ease-in-out;
+  margin-top: 40px;
+  margin-left: 240px;
+  &:hover {
+    background-color: #f2ecde;
+    color: #27291d;
+    margin-left: 260px;
+  }
+}
+.img1{
+  max-width: 100%;  
+height: 530px;  
+position: absolute;
+display: flex;
+margin-top: -167px;
+margin-left: 167px;
+width: 450px;
+border-radius: 5px;
+}
+.imgtop{
+  max-width: 100%;
+  height: 625px;
+  position: absolute;
+  display: flex;
+  margin-top: -292px;
+  margin-left: -554px;
+  width: 392px;
+  border-radius: 230px;
+}
+.fourth_container{
+  > div {
+    max-width: 600px;
+    min-width: 380px;
+    text-align: center;
+    text-align: center;
+    padding-left: -50px;
+    padding-right: 172px;
+  }
+ .kind_text{
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-family: "Georgia", cursive;
+   position: relative; 
+   padding-right: 206px;
+  margin-top: 57%;
+  margin-left: -410px;
+
+ }
+ .img3{
+  max-width: 100%;
+    height: 157px;
+    position: absolute;
+    display: flex;
+    margin-top: 36px;
+    /* top: 0%; */
+    margin-left: -36px;
+    width: 173px;
+    border-radius: 50%;
+ }
+ .kindbtn{
+  cursor: pointer;
+  background-color: #f2ecde;
+  padding: 20px 60px;
+  transition: 0.3s all ease-in-out;
+  margin-top: 40px;
+  margin-left: -34%;
+  position: absolute;
+  &:hover {
+    background-color: #27291d;
+    color: #fff;
+  }
+}
+ 
+}
+.foot_wrapper3 {
+  background-color: #27291d;
+  height: 900px;
+  border-top: 2px solid #27291d;
+}
+.foot_text {
+  text-align: center;
+  max-width: 700px;
+  margin-top: 318px;
+  h1 {
+    font-family: "Georgia", cursive;
+    font-size: 34px;
+    color: #f2ecde;
+    line-height: 51px;
+    letter-spacing: 2px;
+  }
+}
+.learn_2 {
+  cursor: pointer;
+  background-color: #f2ecde;
+  padding: 20px 60px;
+  transition: 0.3s all ease-in-out;
+  margin-top: 40px;
+  margin-left: 240px;
+  &:hover {
+    background-color: #f2ecde;
+    color: #27291d;
+    margin-left: 260px;
+  }
+}
